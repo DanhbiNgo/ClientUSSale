@@ -1,0 +1,114 @@
+.sw-dathang{
+margin-left:50px;
+background:#202020;
+margin-right:50px;
+margin-bottom:100px;
+
+}
+.alldathang{
+display:flex;
+}
+.muahang{
+	position: fixed;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(90deg, rgba(18,202,228,1) 0%, rgba(27,30,31,1) 0%, rgba(9,105,116,1) 58%);
+    bottom: 0;
+    color: white;
+    margin-left: -50px;
+
+}
+.input-max{
+width: 50px;
+    margin-right: 0px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.deletedh{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+	top:25%;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.me-dh{
+    display: flex;
+	width:100%;
+}
+.me-dh div{
+width: 253px;
+    text-align: center;
+    height: 50px;
+    background: white;
+    line-height: 45px;
+	color:black;
+}
+.alldathang div{
+width: 253px;
+    text-align: center;
+}
+.alldathang div:nth-child(2){
+    line-height: 90px;
+}
+.alldathang div:nth-child(3){
+    line-height: 90px;
+}
+.alldathang div:nth-child(4){
+    line-height: 90px;
+}
+.alldathang div:nth-child(5){
+    line-height: 60px;
+}
+.giadh{
+	 font-weight: bold;
+color:white;
+}
+.buy{
+display: flex;
+    position: absolute;
+    right: 55px;
+}
+.buy div{
+	width:200px;
+height:50px;
+line-height:50px;
+text-align: left;
+}
+.buy div:nth-child(1){
+	text-align:right;
+}
+.buy div button{
+	       width: 200px;
+    margin-left: 40px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    bottom: 55%;
+	border:none;
+	background:black;
+color:white;
+}
+.buy div button:hover{
+	color:black;
+	background:wheat;
+	
+}
+.adres,.sdt{
+    display: flex;
+    position: relative;
+    left: 818px;
+margin-top:5px;
+	margin-bottom:5px;
+}
+.adres div:nth-child(2){
+	margin-left:5px;
+}
+.sdt div input[type="text"]{
+	height:25px;
+	width:205px;
+}

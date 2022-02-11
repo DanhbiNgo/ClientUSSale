@@ -1,0 +1,170 @@
+.total-tt{
+	display:flex;
+margin-left:100px;
+}
+.total-tt .ttkh{
+width:200px;
+
+}
+.total-tt .ttgh {
+	width:100%;
+background:;
+margin-right:80px;
+
+}
+.img-user{
+text-align:center;
+height:150px;
+}
+.list-dh{
+display:flex;
+width:100%;
+}
+.list-dh div{
+width:205px;
+text-align:center;
+height:50px;
+background:white;
+line-height: 45px;
+
+}
+.list-dh div a{
+	display:block;
+	text-decoration:none;
+color:black;
+}
+.all{
+	border-bottom:2px solid red;
+}
+.ct-donhang{
+position:relative;
+    margin-bottom: 15px;
+    margin-top: 10px;
+background:#202020;
+}
+.me-donhang{
+text-align:center;
+display:flex;
+background:black;
+}
+.me-donhang div{
+width:240px;
+height:30px;
+line-height:30px;
+
+
+}
+.ctdh-donhang{
+text-align:center;
+display:flex;
+}
+.ctdh-donhang div{
+width:240px;
+height:30px;
+line-height:30px;
+}
+.tong-dh{
+text-align:center;
+}
+.diachi{
+	background:#202020;
+padding-top:10px;
+width:100%;
+margin-right:80px;
+
+}
+.diachi-top{
+margin-top:30px;
+    margin-left: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid;
+}
+.diachi-top div:nth-child(2){
+	position: relative;
+    left: 650px;
+}
+.diachi-top div:nth-child(1){
+	line-height:40px;
+	font-size:20px;
+margin-left:5px;
+}
+.diachi-top div:nth-child(2) button{
+	    height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+border:none;
+}
+.cre-diachi{
+	width:400px;
+	position:fixed;
+left:40%;
+	height:500px;
+	border:1px solid black;
+	border-radius:5px;
+	background:black;
+display:none;
+
+}
+.diachi1{
+	margin-left:20px;
+
+}
+.diachi1 div{
+text-align:center;
+ width: 360px;
+    height: 70px;
+}
+.diachi1 div input[type='text']{
+	width:300px;
+}
+.diachi1 div select{
+	width:300px;
+	height:35px;
+}
+.diachi1 div h3{
+	padding-top:15px;
+}
+.diachi1 div input[type='submit']{
+	width:200px;
+}
+.diachi1 div input[type='submit']:hover{
+	background:black;
+	color:white;
+	cursor:pointer;
+}
+.diachi1 div a{
+	text-decoration:none;
+	color:white;
+}
+.diachi2{
+	margin-left:30px;
+}
+.diachi3{
+	margin-left: 250px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.diachi3 div span{
+color:rgba(85,85,85,.8);
+margin-right: 25px;
+width:230px;
+}
+.diachi3 div{
+	padding-bottom:10px;
+}
+.xoadc{
+	    position: relative;
+    width: 100px;
+    height: 50px;
+    left: 55%;
+    bottom: 50px;
+}
+.xoadc a{
+	color:rgba(85,85,85,.8);
+}
+.uppass{
+margin-left: 30px;
+}

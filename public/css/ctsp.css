@@ -1,0 +1,202 @@
+.chitietsp{
+height: 420px;
+    padding-top: 10px;
+    background: lightslategray;
+    width: 1290px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+.sanpham{
+position:relative;
+width:100%;
+height:200px;
+display:flex;
+}
+.img-ct{
+position:relative;
+background:lightslategray;
+width:350px;
+height:400px;
+}
+.img-ct img{
+margin-left:55px;
+border-bottom:1px solid white;
+padding-bottom:20px;
+}
+.t-right{
+margin-left:10px;
+position:relative;
+height:400px;
+}
+.t-right .sp-ten{
+font-size:22px;
+font-weight: 400;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+text-align:center;
+color:black;
+}
+.sp-giaban{
+color:black;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+	top:30%;
+color:black;
+text-align: center;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+	opacity:0.5;
+}
+.giaban{
+position:relative;
+top:30%;
+color:black;
+text-align: center;
+
+}
+.danhgia{
+position:relative;
+top:5%;
+color:black;
+text-align: center;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+.sp-soluong{
+display:block;
+}
+.buy-now,.add-to-cart{
+padding: 0;
+    width: 225px;
+    text-align: center;
+    margin-right: 10px;
+    border: 0;
+    border: 1px solid black;
+    background: #eeeeee;
+	height:50px;
+font-size:16px;
+border-radius: 5px;
+transition: all .3s ease-out;
+}
+.buy-now:hover,.add-to-cart:hover{
+background:black;
+color:white;
+}
+.gr-buy{
+position:relative;
+top:30%;
+}
+.ship{
+position:relative;
+    height: 400px;
+	left:5%;
+}
+.icon-ship{
+position:relative;
+margin-top:10px;
+display:flex;
+border-bottom:1px solid #202020;
+    padding-bottom: 30px;
+}
+.vsit{
+position:relative;
+width:200px;
+}
+.chage a{
+position:relative;
+top:15%;
+text-decoration:none;
+color:#1a9cb7;
+font-size:12px;
+}
+.mtsp{
+position:relative;
+margin:10px 30px 0px 29px;
+background:lightslategray;
+height:180px;
+padding:1px 20px 0px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+
+}
+.mtsp .motasp{
+color: #017373;
+padding-top:10px;
+margin-bottom:10px;
+}
+
+.respon{
+position:absolute;
+width:100px;
+height:200px;
+
+}
+.delete{
+position: relative;
+    font-size: 30px;
+
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
